@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Course Registration</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header" id="home">
+    <div class="header-inner">
+      <a class="brand" href="#home" aria-label="Student Registration home">
+        <span class="brand-mark">SR</span>
+        <span><strong>Student Registration</strong><small>Learn today. Build tomorrow.</small></span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#home">1. Home</a>
+        <a href="#courses">2. Courses</a>
+        <a href="#register">3. Register</a>
+        <a href="#steps">4. How it works</a>
+        <a href="#contact">5. Contact</a>
+      </nav>
+      <a class="nav-cta" href="#register">Register now <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-wrap">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> STUDENT COURSE REGISTRATION</p>
+        <h1>Choose your next skill.<br><span>Shape your future.</span></h1>
+        <p class="hero-description">Explore practical courses and register in just a few simple steps. Complete the form and review your registration confirmation.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#courses">Explore courses <span aria-hidden="true">↓</span></a>
+          <a class="button button-secondary" href="#register">Register a student</a>
+        </div>
+        <div class="hero-proof"><div class="avatar-stack"><span>ST</span><span>IT</span><span>WD</span></div><p><strong>Learn by doing</strong><br><small>Skills for your next step</small></p></div>
+      </div>
+      <div class="hero-art" aria-label="Illustration of learning and education">
+        <div class="art-glow"></div>
+        <div class="floating-card float-top"><span class="mini-icon purple">✦</span><span><strong>New skills</strong><small>Start learning today</small></span></div>
+        <div class="learning-board">
+          <div class="board-top"><span class="board-dot"></span><span class="board-dot"></span><span class="board-dot"></span><span class="board-label">YOUR LEARNING PATH</span></div>
+          <div class="board-content">
+            <div class="book-illustration"><div class="book book-back"></div><div class="book book-mid"></div><div class="book book-front"><i></i><i></i><i></i></div></div>
+            <div class="cap-illustration"><div class="cap-top"></div><div class="cap-base"></div><div class="cap-tassel"></div></div>
+            <div class="board-lines"><span></span><span></span><span></span></div>
+            <div class="progress-wrap"><div class="progress-text"><span>Learning progress</span><strong>75%</strong></div><div class="progress-track"><span></span></div></div>
+          </div>
+        </div>
+        <div class="floating-card float-bottom"><span class="mini-icon green">✓</span><span><strong>Ready to grow?</strong><small>Your journey starts here</small></span></div>
+      </div>
+    </section>
+
+    <section class="section-wrap courses-section" id="courses">
+      <div class="section-heading">
+        <div><p class="eyebrow">FIND YOUR INTEREST</p><h2>Popular courses</h2><p class="section-subtitle">Pick a course that matches your goals and interests.</p></div>
+        <span class="course-count">03 COURSES</span>
+      </div>
+      <div class="course-grid">
+        <article class="course-card">
+          <div class="course-art art-code"><span class="art-symbol">&lt;/&gt;</span><span class="art-chip chip-one">HTML</span><span class="art-chip chip-two">CSS</span><span class="art-chip chip-three">JS</span></div>
+          <div class="course-body"><div class="course-meta"><span class="course-category">DESIGN & CODE</span><span class="course-duration">8 weeks</span></div><h3>Web Development</h3><p>Learn how to build modern, responsive websites using HTML, CSS, and JavaScript.</p><div class="course-footer"><span class="level-pill">Beginner friendly</span><button class="text-button choose-course" type="button" data-course="Web Development">Choose course <span>→</span></button></div></div>
+        </article>
+        <article class="course-card">
+          <div class="course-art art-python"><span class="python-shape shape-blue">●</span><span class="python-shape shape-yellow">●</span><span class="code-line line-a"></span><span class="code-line line-b"></span><span class="code-line line-c"></span><span class="art-caption">PYTHON</span></div>
+          <div class="course-body"><div class="course-meta"><span class="course-category">PROGRAMMING</span><span class="course-duration">10 weeks</span></div><h3>Programming Basics</h3><p>Practice problem-solving and understand core programming concepts step by step.</p><div class="course-footer"><span class="level-pill">Beginner friendly</span><button class="text-button choose-course" type="button" data-course="Programming Basics">Choose course <span>→</span></button></div></div>
+        </article>
+        <article class="course-card">
+          <div class="course-art art-network"><div class="network-node node-top">◎</div><div class="network-node node-left">⌘</div><div class="network-node node-right">↗</div><div class="network-node node-bottom">▣</div><span class="network-line n-line-one"></span><span class="network-line n-line-two"></span><span class="network-line n-line-three"></span><span class="network-line n-line-four"></span></div>
+          <div class="course-body"><div class="course-meta"><span class="course-category">IT & NETWORKING</span><span class="course-duration">6 weeks</span></div><h3>Computer Networking</h3><p>Understand network devices, IP addressing, connectivity, and basic troubleshooting.</p><div class="course-footer"><span class="level-pill">Beginner friendly</span><button class="text-button choose-course" type="button" data-course="Computer Networking">Choose course <span>→</span></button></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="registration-section" id="register">
+      <div class="section-wrap registration-layout">
+        <div class="registration-intro">
+          <p class="eyebrow">TAKE THE NEXT STEP</p>
+          <h2>Register for a<br><span>course today.</span></h2>
+          <p>Enter your information carefully. Fields marked with * are required. After you submit, you'll see a confirmation with the details you entered.</p>
+          <div class="registration-note"><span class="note-icon">✓</span><div><strong>Simple and secure</strong><small>Your information is used here to demonstrate form validation only. It is not sent to a server.</small></div></div>
+          <div class="step-list" id="steps"><div class="step-item"><span>01</span><p><strong>Choose a course</strong><small>Explore the options above.</small></p></div><div class="step-item"><span>02</span><p><strong>Fill in your details</strong><small>Complete each required field.</small></p></div><div class="step-item"><span>03</span><p><strong>Confirm registration</strong><small>Review your confirmation.</small></p></div></div>
+        </div>
+
+        <div class="form-card">
+          <div class="form-heading"><div><p class="eyebrow">REGISTRATION FORM</p><h3>Student details</h3></div><span class="form-step">STEP 01 <span>/ 01</span></span></div>
+          <form id="registrationForm" novalidate>
+            <div class="form-grid">
+              <div class="form-field field-full"><label for="studentName">Student Name <span>*</span></label><input id="studentName" name="studentName" type="text" placeholder="Enter your full name" autocomplete="name" required minlength="2"><small class="field-error" id="studentNameError"></small></div>
+              <div class="form-field"><label for="studentId">Student ID <span>*</span></label><input id="studentId" name="studentId" type="text" placeholder="e.g. ST2026001" required minlength="3"><small class="field-error" id="studentIdError"></small></div>
+              <div class="form-field"><label for="emailAddress">Email Address <span>*</span></label><input id="emailAddress" name="emailAddress" type="email" placeholder="you@example.com" autocomplete="email" required><small class="field-error" id="emailAddressError"></small></div>
+              <div class="form-field field-full"><label for="courseSelection">Course Selection <span>*</span></label><select id="courseSelection" name="courseSelection" required><option value="">Select a course</option><option>Web Development</option><option>Programming Basics</option><option>Computer Networking</option></select><small class="field-error" id="courseSelectionError"></small></div>
+              <div class="form-field field-full"><label for="message">Additional notes <span class="optional">(optional)</span></label><textarea id="message" name="message" rows="3" placeholder="Tell us what you hope to learn..."></textarea></div>
+            </div>
+            <label class="consent-row" for="agreeTerms"><input id="agreeTerms" type="checkbox" required><span>I confirm that the information above is correct. <b>*</b></span></label><small class="field-error consent-error" id="agreeTermsError"></small>
+            <div class="form-actions"><button class="button button-primary submit-button" type="submit">Submit registration <span aria-hidden="true">→</span></button><button class="button button-reset" type="reset">Clear form</button></div>
+            <p class="form-footnote"><span aria-hidden="true">●</span> This demo validates your form in the browser only.</p>
+          </form>
+          <section id="confirmation" class="confirmation-panel" aria-live="polite" hidden>
+            <div class="confirmation-check">✓</div><p class="eyebrow">REGISTRATION COMPLETE</p><h3>You're on your way!</h3><p class="confirmation-copy">Your form passed validation. Review your registration summary below.</p>
+            <dl class="summary-list"><div><dt>Student name</dt><dd id="summaryName"></dd></div><div><dt>Student ID</dt><dd id="summaryId"></dd></div><div><dt>Email address</dt><dd id="summaryEmail"></dd></div><div><dt>Selected course</dt><dd id="summaryCourse"></dd></div></dl>
+            <div class="confirmation-actions"><button class="button button-primary" id="editRegistration" type="button">Edit details</button><button class="button button-secondary" id="newRegistration" type="button">New registration</button></div>
+          </section>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact"><div class="section-wrap footer-inner"><a class="brand footer-brand" href="#home"><span class="brand-mark">SR</span><span><strong>Student Registration</strong><small>Learning starts with one step.</small></span></a><p>Student Course Registration Website <span>•</span> HTML · CSS · JavaScript</p><a href="#home" class="back-top">Back to top ↑</a></div></footer>
+</body>
+</html>
